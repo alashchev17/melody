@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 // font-family: 'Roboto', sans-serif
+@font-face 
+  font-family: 'Bebas Neue'
+  src: local('Bebas Neue Regular Regular'), local('BebasNeueRegular'), url('../fonts/BebasNeueRegular.woff2') format('woff2'), url('../fonts/BebasNeueRegular.woff') format('woff')
+  font-weight: normal
+  font-style: normal
+  font-display: swap
 *, *::before, *::after
   box-sizing: border-box
 body
@@ -9,3 +15,12 @@ body
 a
   text-decoration: none
   color: inherit
+.button
+  padding: 16px 36px
+  color: $light
+  border: none
+  outline: none
+  cursor: pointer
+  &__primary
+    background: $blue
+    border-radius: 6px

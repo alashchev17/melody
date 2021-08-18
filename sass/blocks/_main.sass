@@ -1,0 +1,44 @@
+.main
+  max-width: 1280px
+  margin: 0 auto
+  padding: 54px 0 0 0
+  display: flex
+  &__content
+    flex-grow: 1
+    text-align: center
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+.image
+  &__icon
+    path
+      opacity: 0
+      cursor: pointer
+      &:hover
+        opacity: 0.75
+.content
+  &__title
+    font-family: 'Bebas Neue', sans-serif
+    font-size: 37px
+    line-height: 44px
+    font-weight: 400
+    color: $content-color
+    margin: 0
+.counter
+  color: $content-color
+  &__group
+    display: flex
+    flex-direction: column
+    align-items: center
+  &__button
+    background: $light
+    border: none
+    outline: none
+    cursor: pointer
+  &__text
+    font-family: 'Bebas Neue', sans-serif
+    font-weight: 400
+    font-size: 124px
+    margin-bottom: 10px
+    
