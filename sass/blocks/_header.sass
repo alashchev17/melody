@@ -1,0 +1,45 @@
+.header
+  background: $header-bg
+  border-bottom: 4px solid $blue
+  &__navbar
+    max-width: 1280px
+    margin: 0 auto
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__list
+    padding: 0
+    margin: 0
+    list-style: none
+    display: flex
+    &-item:not(:last-child)
+      margin-right: 40px
+      font-weight: normal
+      font-size: 16px
+      line-height: 19px
+  &__contacts
+    display: flex
+    flex-direction: column
+    align-items: flex-end
+  &__nav
+    &-link
+      text-decoration: none
+      color: $light
+      text-align: center
+      display: flex
+      align-items: center
+      padding: 9px 16px
+      height: 100%
+      &:hover
+        background-color: $blue
+.contacts
+  color: $light
+  &__text
+    font-weight: normal
+    font-size: 14px
+    line-height: 16px
+    margin-bottom: 4px
+  &__phone
+    font-weight: bold
+    font-size: 17px
+    line-height: 20px
